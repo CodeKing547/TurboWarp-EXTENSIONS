@@ -14,8 +14,8 @@
     constructor() {}
     getInfo() {
       return {
-        id: "sipcconsole",
-        name: Scratch.translate("Consoles"),
+        id: "exec3",
+        name: Scratch.translate("Executor"),
         color1: "#808080",
         color2: "#8c8c8c",
         color3: "#999999",
@@ -43,5 +43,5 @@
       eval(string);
     }
   }
-  Scratch.extensions.register(new Consoles());
+  Scratch.extensions.register(new Executor());
 })(Scratch);
